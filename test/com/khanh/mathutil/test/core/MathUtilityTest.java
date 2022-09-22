@@ -28,6 +28,7 @@ public class MathUtilityTest {
        Assert.assertEquals(1, MathUtility.getFactorial(1));
        Assert.assertEquals(2, MathUtility.getFactorial(2));
        Assert.assertEquals(720, MathUtility.getFactorial(6));
+       Assert.assertEquals(120, MathUtility.getFactorial(6));
        
    }
    // hàm getF() ta thiêt kế 2 tình huống xử lý
