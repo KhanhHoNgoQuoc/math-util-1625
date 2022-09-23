@@ -14,9 +14,9 @@ public class Main {
     public static void main(String[] args) {
         long expected =120;
         int n=5;
-        long actual=MathUtility.getFactorial(5);
+        long actual=MathUtility.getFactorial(n);
         System.out.println("5!= " + expected + " expected ");
-        System.out.println("5!= "+ actual + " expected ");
+        System.out.println("5!= "+ actual + " actual ");
     }
   
 }
